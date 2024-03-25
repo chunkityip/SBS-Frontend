@@ -1,0 +1,68 @@
+/* Apply styles to the form */
+nz-form {
+  max-width: 600px;
+}
+
+/* Apply styles to the phone select element */
+.phone-select {
+  width: 70px;
+}
+
+/* Apply styles to the child container */
+.child {
+  padding: 50px;
+  position: absolute;
+  width: 380px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 1px 1px 15px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 22px;
+}
+
+/* Apply styles to the form control */
+nz-form-control {
+  min-width: 280px;
+}
+
+/* Apply styles to the parent container */
+.parent {
+  width: 100%;
+  height: 91vh;
+  position: relative;
+}
+
+/* Apply margin to elements with the login-form-margin class */
+.login-form-margin {
+  margin-bottom: 16px;
+}
+
+/* Apply styles to the forgot password link */
+.login-form-forgot {
+  float: right;
+}
+
+/* Apply styles to the login form button */
+.login-form-button {
+  width: 100%;
+}
+
+/* Apply styles to all buttons */
+button {
+  background-color: #001529;
+  border: none;
+}
+
+/* Apply styles to the image container */
+.imgDiv {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 40px;
+}
+
+/* Apply background color to the background container */
+.bg {
+  background-color: #f5f7f9;
+}

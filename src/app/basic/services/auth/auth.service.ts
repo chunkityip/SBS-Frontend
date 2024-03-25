@@ -14,4 +14,8 @@ export class AuthService {
   registerClient(signupRequestDTO: any) : Observable<any> {
     return this.http.post(BASIC_URL + "/client/sign-up" , signupRequestDTO);
   }
+
+  registerCompany(signupRequestDTO: any) : Observable<any> {
+    return this.http.post(BASIC_URL + "/company/sign-up" , signupRequestDTO);
+  }
 }
