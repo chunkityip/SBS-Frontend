@@ -2,7 +2,7 @@
     <div class="parent">
         <div class="child">
             <div nz-col>
-                <h1 style="margin-inline-start: 55px">Client Signup</h1>
+                <h1 style="text-align: center;">Client Signup</h1>
             </div>
 
             <!--The input format-->
@@ -20,25 +20,26 @@
                         <input nz-input type="password" placeholder="Password" formControlName="password" id="password" />
                     </nz-form-control>
                 </nz-form-item>
-
-                <!-- Confirm Password -->
+                
                 <nz-form-item>
-                    <nz-form-control nzHasFeedback nzErrorTip="The input is not valid!">
-                        <input nz-input type="password" placeholder="Confirm password" formControlName="confirmPassword" id="confirmPassword" />
+                    <nz-form-control nzHasFeedback nzErrorTip="Please confirm your password">
+                        <input nz-input type="password" placeholder="Confirm Password" formControlName="confirmPassword" />
                     </nz-form-control>
                 </nz-form-item>
+                
+                
 
                 <!-- Name -->
                 <nz-form-item>
                     <nz-form-control nzHasFeedback nzErrorTip="The input name is not valid!">
-                        <input nz-input placeholder="Name" formControlName="name" id="name" />
+                        <input nz-input placeholder="Firstname" formControlName="name" id="email" />
                     </nz-form-control>
                 </nz-form-item>
-
+                
                 <!-- Last Name -->
                 <nz-form-item>
                     <nz-form-control nzHasFeedback nzErrorTip="The input last name is not valid!">
-                        <input nz-input placeholder="Lastname" formControlName="lastname" id="lastname" />
+                        <input nz-input placeholder="Lastname" formControlName="lastname" id="email" />
                     </nz-form-control>
                 </nz-form-item>
 
@@ -50,13 +51,10 @@
                 </nz-form-item>
 
                 <!-- Register Button -->
-                <!-- Register Button -->
-                <nz-form-item>
-                    <button nz-button nzType="primary" class="login-form-button login-form-margin">
+                    <button nz-button class="login-form-button login-form-margin" [nzType]="'primary'">
                         Register
                     </button>
-                </nz-form-item>
-
+                    Or <a routerLink="/login"> login now! </a>
             </form>
         </div>
     </div>
